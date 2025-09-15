@@ -46,6 +46,38 @@ const Home = () => {
             <h2 className="text-xl font-semibold text-gray-800 mb-2">Cosmetics Shop</h2>
             <p className="text-gray-600">Elegant, beauty-focused design</p>
           </Link>
+          <Link 
+            to="/tea-coffee-shop" 
+            className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3"
+          >
+            <div className="bg-amber-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-amber-200 transition-colors">
+              <Coffee className="w-10 h-10 text-amber-600" />
+            </div>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-3">Tea & Coffee Shop</h2>
+            <p className="text-gray-600">Warm, cozy, and inviting design</p>
+          </Link>
+
+          <Link 
+            to="/shoes-shop" 
+            className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3"
+          >
+            <div className="bg-slate-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-slate-200 transition-colors">
+              <ShoppingBag className="w-10 h-10 text-slate-600" />
+            </div>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-3">Shoes Shop</h2>
+            <p className="text-gray-600">Sleek, modern footwear design</p>
+          </Link>
+
+          <Link 
+            to="/earrings-shop" 
+            className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3"
+          >
+            <div className="bg-rose-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-rose-200 transition-colors">
+              <Crown className="w-10 h-10 text-rose-600" />
+            </div>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-3">Earrings Shop</h2>
+            <p className="text-gray-600">Luxury jewelry and accessories</p>
+          </Link>
         </div>
       </div>
     </div>
